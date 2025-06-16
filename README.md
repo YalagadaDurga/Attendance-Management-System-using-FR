@@ -33,6 +33,56 @@ Welcome to the **Face Recognition-based Attendance Management System** — a mod
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/YalagadaDurga/Attendance-Management-System-using-FR.git
 cd Attendance-Management-System-using-FR
+
+### 2️⃣ Frontend Setup (React)
+
+cd frontend
+npm install
+npm start
+
+🌐 Runs at: http://localhost:3000
+
+### 3️⃣ Backend Setup (Flask)
+
+cd backend
+python -m venv venv
+venv\Scripts\activate  # (use source venv/bin/activate on macOS/Linux)
+pip install -r requirements.txt
+python app.py
+
+🛠️ Backend API running at: http://localhost:5000
+
+### 4️⃣ Train the Face Recognition Model
+
+python train.py
+
+🔁 This processes face images from /dataset/ folder and generates encodings.
+
+### 🗂️ Folder Structure for Face Data
+
+dataset/
+├── YalagadaDurga/
+│   ├── img1.jpg
+│   ├── img2.jpg
+├── Madhavi/
+│   ├── img1.jpg
+│   └── img2.jpg
+
+
+### ⚠️ Note
+To run this project successfully, you must manually download the following essential file:
+
+shape_predictor_68_face_landmarks.dat
+📦 Download Here
+⬇ Place it in:
+venv/Lib/site-packages/face_recognition_models/models/
+
+
+### 📊 Reporting Dashboard
+📆 View employee-wise or date-wise records
+
+📈 Visual charts for weekly/monthly attendance
+
+📂 Export attendance as .CSV file
