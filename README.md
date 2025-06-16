@@ -62,6 +62,7 @@ python train.py
 
 ### 🗂️ Folder Structure for Face Data
 
+```
 dataset/
 ├── YalagadaDurga/
 │   ├── img1.jpg
@@ -69,8 +70,9 @@ dataset/
 ├── Madhavi/
 │   ├── img1.jpg
 │   └── img2.jpg
-
+```
 📸 Each folder is named after the employee and contains multiple face images captured via webcam.
+
 
 ### ⚠️ Note
 To run this project successfully, you must manually download the following essential file:
