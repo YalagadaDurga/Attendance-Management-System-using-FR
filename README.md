@@ -70,6 +70,7 @@ dataset/
 │   ├── img1.jpg
 │   └── img2.jpg
 
+📸 Each folder is named after the employee and contains multiple face images captured via webcam.
 
 ### ⚠️ Note
 To run this project successfully, you must manually download the following essential file:
@@ -86,3 +87,11 @@ venv/Lib/site-packages/face_recognition_models/models/
 📈 Visual charts for weekly/monthly attendance
 
 📂 Export attendance as .CSV file
+
+
+### 🎯 Goals & Scope
+✅ Accurate face-based attendance
+
+✅ User-friendly UI for Admin & Employee
+
+✅ Easily deployable for educational or office use
