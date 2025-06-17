@@ -79,6 +79,7 @@ To run this project successfully, you must manually download the following essen
 
 shape_predictor_68_face_landmarks.dat
 📦 Download Here
+
 ⬇ Place it in:
 venv/Lib/site-packages/face_recognition_models/models/
 
